@@ -597,6 +597,7 @@ img {
 
 .about__text {
   margin-bottom: 50px;
+  text-align: justify;
 }
 
 .about .button {
@@ -2525,10 +2526,17 @@ button.swiper-pagination-bullet {
 
   .intro__title {
     margin-bottom: 230px;
+    text-align: center;
   }
 
   .intro__text {
     max-width: 100%;
+    text-align: center;
+  }
+
+  .intro .button {
+    text-align: center;
+    margin: 0 auto;
   }
 
   .intro__image {
@@ -2549,13 +2557,6 @@ button.swiper-pagination-bullet {
 @media (max-width: 430px) {
   .directions__gallery-thumbs {
     max-width: 55vw;
-  }
-}
-
-@media (max-width: 420px) {
-  .intro__title {
-    font-size: 20px;
-    line-height: 25px;
   }
 }
 
