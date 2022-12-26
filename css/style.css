@@ -1,5 +1,21 @@
 @charset "UTF-8";
 
+@font-face {
+  font-family: "Mak";
+  src: url("../../fonts/mak.woff") format("woff"), url("../../fonts/mak.woff2") format("woff2"), url("../../fonts/mak.ttf") format("truetype"), url("../../fonts/mak.eot") format("embedded-opentype"), url("../../fonts/mak.oft") format("oft");
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Mak";
+  src: url("../../fonts/mak-bold.woff") format("woff"), url("../../fonts/mak-bold.woff2") format("woff2"), url("../../fonts/mak-bold.ttf") format("truetype"), url("../../fonts/mak-bold.eot") format("embedded-opentype"), url("../../fonts/mak-bold.oft") format("oft");
+  font-display: swap;
+  font-style: normal;
+  font-weight: 700;
+}
+
 * {
   padding: 0px;
   margin: 0px;
@@ -165,7 +181,7 @@ img {
   font-family: "Mak";
   font-size: 55px;
   line-height: 90px;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .text {
@@ -511,7 +527,7 @@ img {
 }
 
 .intro {
-  padding: 200px 0 60px;
+  padding: 250px 0 60px;
   background: -o-radial-gradient(50% 50%, 50% 50%, rgba(121, 130, 99, 0.526076) 0.01%, rgba(232, 242, 207, 0.82) 0.02%, rgba(236, 244, 208, 0) 0.03%, rgba(215, 222, 196, 0.707808) 0.04%, rgba(211, 218, 194, 0.82) 14.58%, #CED4BF 99.97%, #CED4BF 99.98%);
   background: radial-gradient(50% 50% at 50% 50%, rgba(121, 130, 99, 0.526076) 0.01%, rgba(232, 242, 207, 0.82) 0.02%, rgba(236, 244, 208, 0) 0.03%, rgba(215, 222, 196, 0.707808) 0.04%, rgba(211, 218, 194, 0.82) 14.58%, #CED4BF 99.97%, #CED4BF 99.98%);
 }
