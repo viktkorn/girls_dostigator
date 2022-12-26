@@ -2332,6 +2332,10 @@ button.swiper-pagination-bullet {
     top: 180px;
   }
 
+  .why__item:nth-child(2)::before {
+    bottom: -5px;
+  }
+
   .why__item:nth-child(2) {
     left: 15px;
     width: 110px;
@@ -2352,6 +2356,7 @@ button.swiper-pagination-bullet {
 
   .why__item:nth-child(4)::before {
     bottom: -10px;
+    left: -5px;
   }
 
   .why__item:nth-child(4) {
@@ -2589,11 +2594,6 @@ button.swiper-pagination-bullet {
   .footer__copyright {
     font-size: 10px;
     line-height: 14px;
-  }
-
-  .directions__info-text:last-child {
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
   }
 
   .directions__gallery-top .swiper-button-next {
