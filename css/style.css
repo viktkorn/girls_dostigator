@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: "Mak";
-  src: url("../../fonts/mak.woff") format("woff"), url("../../fonts/mak.woff2") format("woff2"), url("../../fonts/mak.ttf") format("truetype"), url("../../fonts/mak.eot") format("embedded-opentype"), url("../../fonts/mak.oft") format("oft");
+  src: url("../fonts/mak.woff") format("woff"), url("../fonts/mak.woff2") format("woff2"), url("../fonts/mak.ttf") format("truetype"), url("../fonts/mak.eot") format("embedded-opentype"), url("../fonts/mak.oft") format("oft");
   font-display: swap;
   font-style: normal;
   font-weight: 400;
@@ -10,7 +10,7 @@
 
 @font-face {
   font-family: "Mak";
-  src: url("../../fonts/mak-bold.woff") format("woff"), url("../../fonts/mak-bold.woff2") format("woff2"), url("../../fonts/mak-bold.ttf") format("truetype"), url("../../fonts/mak-bold.eot") format("embedded-opentype"), url("../../fonts/mak-bold.oft") format("oft");
+  src: url("../fonts/mak-bold.woff") format("woff"), url("../fonts/mak-bold.woff2") format("woff2"), url("../fonts/mak-bold.ttf") format("truetype"), url("../fonts/mak-bold.eot") format("embedded-opentype"), url("../fonts/mak-bold.oft") format("oft");
   font-display: swap;
   font-style: normal;
   font-weight: 700;
@@ -178,7 +178,7 @@ img {
 }
 
 .title {
-  font-family: "Mak";
+  font-family: "Mak" !important;
   font-size: 55px;
   line-height: 90px;
   font-weight: 700;
