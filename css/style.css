@@ -2731,12 +2731,6 @@ button.swiper-pagination-bullet {
   }
 }
 
-@media (max-width: 29.99875em) {
-  .title {
-    margin-bottom: 5px;
-  }
-}
-
 @media (any-hover: hover) {
   .menu__link:hover {
     text-decoration: underline;
