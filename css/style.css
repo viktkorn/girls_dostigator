@@ -1868,11 +1868,11 @@ button.swiper-pagination-bullet {
   .price__item {
     min-height: 200px;
     max-width: 300px;
-    border-radius: 0px 120px;
+    border-radius: 0px 100px;
   }
 
   .price__item::before {
-    border-radius: 0px 110px;
+    border-radius: 0px 90px;
   }
 
   .price__item-title {
@@ -1886,8 +1886,9 @@ button.swiper-pagination-bullet {
   }
 
   .price__item-btn {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 18px;
+    padding: 10px 15px;
   }
 }
 
@@ -2025,7 +2026,7 @@ button.swiper-pagination-bullet {
   }
 
   .about {
-    padding: 30px 0;
+    padding: 40px 0;
   }
 
   .about__title {
@@ -2070,6 +2071,11 @@ button.swiper-pagination-bullet {
 
   .teachers__title {
     margin-bottom: 20px;
+  }
+
+  .teachers .teacher__title {
+    font-size: 18px;
+    line-height: 22px;
   }
 
   .reviews {
@@ -2335,13 +2341,13 @@ button.swiper-pagination-bullet {
   .why__img:nth-child(2)::before {
     width: 120px;
     height: 120px;
-    left: 10px;
-    top: 5px;
+    left: 20px;
+    top: 0;
   }
 
   .why__img:nth-child(2) {
     max-width: 120px;
-    left: 15px;
+    left: 0;
     bottom: 260px;
   }
 
@@ -2387,8 +2393,8 @@ button.swiper-pagination-bullet {
   }
 
   .why__item:nth-child(3) {
-    left: calc(50% - 100px);
-    bottom: 250px;
+    left: 30px;
+    bottom: 270px;
     width: 100px;
     height: 100px;
   }
@@ -2488,16 +2494,16 @@ button.swiper-pagination-bullet {
   }
 
   .reviews__container {
-    border-radius: 75px;
+    border-radius: 55px;
   }
 
   .reviews__container::before {
-    border-radius: 75px;
+    border-radius: 55px;
     bottom: -30px;
   }
 
   .reviews__slider .swiper-slide {
-    padding: 10px 30px;
+    padding: 20px 30px 30px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -2544,8 +2550,8 @@ button.swiper-pagination-bullet {
 
 @media (max-width: 480px) {
   .intro__title {
-    font-size: 25px;
-    line-height: 30px;
+    font-size: 22px;
+    line-height: 26px;
   }
 
   .intro__text {
@@ -2577,7 +2583,7 @@ button.swiper-pagination-bullet {
   }
 
   .intro__image {
-    top: 90px;
+    top: 80px;
     margin-right: 0;
     right: calc(50% - 90px);
   }
@@ -2636,6 +2642,12 @@ button.swiper-pagination-bullet {
 
   .directions__gallery-top .swiper-button-next {
     left: 90%;
+  }
+}
+
+@media (max-width: 366px) {
+  .intro__image {
+    top: 100px;
   }
 }
 
